@@ -1,0 +1,207 @@
+/*-------------------------------------------------
+Variables
+---------------------------------------------------*/
+/*=================================================
+Reset
+=================================================*/
+/* line 24, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+html, body {
+  height: 100%; }
+
+/* line 27, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+body {
+  background-color: #FFF;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden; }
+
+/* line 33, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+a {
+  color: #000; }
+
+/*=================================================
+3D
+=================================================*/
+/*Three.js
+-----------------------------------*/
+/* line 43, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+#stats {
+  position: absolute;
+  z-index: 1000; }
+
+/*Element
+-----------------------------------*/
+/* line 52, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+.element {
+  width: 400px;
+  height: 160px;
+  text-align: center;
+  cursor: default; }
+  /* line 57, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+  .element.year {
+    font-size: 36px; }
+  /* line 61, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+  .element.wc img {
+    width: 100px; }
+  /* line 65, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+  .element.wck2016 {
+    width: 1000px;
+    text-align: center; }
+    /* line 68, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    .element.wck2016 .wapuu {
+      position: absolute; }
+    /* line 71, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    .element.wck2016 .wapuu_hover {
+      left: 0;
+      margin-top: 30px;
+      width: 200px; }
+    /* line 76, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    .element.wck2016 .wapuu_headset {
+      right: 0;
+      width: 180px; }
+    /* line 81, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    .element.wck2016 .logo {
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px; }
+
+/*Point
+-----------------------------------*/
+/* line 94, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+.point {
+  background: #000000; }
+
+/* line 98, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+.point-l {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px; }
+
+/* line 105, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+.point-m {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px; }
+
+/* line 111, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+.point-s {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px; }
+
+/* line 118, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+header {
+  height: 90px;
+  background: #FFF;
+  width: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  border-bottom: 1px #999 solid;
+  /*Logo
+	-----------------------------------------------*/
+  /*Site Info
+	-----------------------------------------------*/ }
+  @media screen and (max-width: 960px) {
+    /* line 118, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    header {
+      height: 80px; } }
+  @media screen and (max-width: 560px) {
+    /* line 118, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    header {
+      height: 60px; } }
+  @media screen and (max-width: 560px) {
+    /* line 135, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    header a {
+      font-size: 14px; } }
+  /* line 143, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+  header .site-logo {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 100;
+    max-width: 290px;
+    text-align: center;
+    font-size: 18px; }
+    @media screen and (max-width: 960px) {
+      /* line 143, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+      header .site-logo {
+        max-width: 200px; } }
+    @media screen and (max-width: 560px) {
+      /* line 143, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+      header .site-logo {
+        max-width: 150px;
+        top: 5px; } }
+    /* line 162, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    header .site-logo a {
+      width: 20%; }
+      /* line 164, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+      header .site-logo a img {
+        width: 100%; }
+      @media screen and (max-width: 960px) {
+        /* line 162, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+        header .site-logo a {
+          font-size: 14px; } }
+      @media screen and (max-width: 560px) {
+        /* line 162, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+        header .site-logo a {
+          font-size: 10px;
+          margin-top: 0; } }
+  /* line 180, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+  header .site-info {
+    margin-left: 290px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px; }
+    @media screen and (max-width: 960px) {
+      /* line 180, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+      header .site-info {
+        margin-top: 14px; } }
+    @media screen and (max-width: 767px) {
+      /* line 180, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+      header .site-info {
+        margin-top: 24px;
+        margin-left: 210px; } }
+    @media screen and (max-width: 560px) {
+      /* line 180, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+      header .site-info {
+        margin-top: 18px;
+        margin-left: 160px; } }
+    /* line 199, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+    header .site-info section {
+      margin: auto 16px;
+      font-size: 18px; }
+      @media screen and (max-width: 960px) {
+        /* line 199, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+        header .site-info section {
+          font-size: 14px; } }
+      @media screen and (max-width: 560px) {
+        /* line 199, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+        header .site-info section {
+          margin: auto 10px; } }
+      /* line 209, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+      header .site-info section img {
+        height: 32px;
+        margin: -2px auto 0; }
+        @media screen and (max-width: 960px) {
+          /* line 209, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+          header .site-info section img {
+            display: block;
+            margin: auto auto; } }
+        @media screen and (max-width: 560px) {
+          /* line 209, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+          header .site-info section img {
+            height: 24px; } }
+      @media screen and (max-width: 767px) {
+        /* line 221, /Volumes/Data/Works/WordCamp_Kansai_2016/loop_movie/public_html/src/scss/style.scss */
+        header .site-info section span {
+          display: none; } }
+
+/*=================================================
+Site Info
+=================================================*/
+
+/*# sourceMappingURL=style.css.map */

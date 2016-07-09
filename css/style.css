@@ -1,0 +1,171 @@
+/*-------------------------------------------------
+Variables
+---------------------------------------------------*/
+/*=================================================
+Reset
+=================================================*/
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #FFF;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden; }
+
+a {
+  color: #000; }
+
+/*=================================================
+3D
+=================================================*/
+/*Three.js
+-----------------------------------*/
+#stats {
+  position: absolute;
+  z-index: 1000; }
+
+/*Element
+-----------------------------------*/
+.element {
+  width: 400px;
+  height: 160px;
+  text-align: center;
+  cursor: default; }
+  .element.year {
+    font-size: 36px; }
+  .element.wc img {
+    width: 100px; }
+  .element.wck2016 {
+    width: 1000px;
+    text-align: center; }
+    .element.wck2016 .wapuu {
+      position: absolute; }
+    .element.wck2016 .wapuu_hover {
+      left: 0;
+      margin-top: 30px;
+      width: 200px; }
+    .element.wck2016 .wapuu_headset {
+      right: 0;
+      width: 180px; }
+    .element.wck2016 .logo {
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px; }
+
+/*Point
+-----------------------------------*/
+.point {
+  background: #000000; }
+
+.point-l {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px; }
+
+.point-m {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px; }
+
+.point-s {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px; }
+
+header {
+  height: 90px;
+  background: #FFF;
+  width: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  border-bottom: 1px #999 solid;
+  /*Logo
+	-----------------------------------------------*/
+  /*Site Info
+	-----------------------------------------------*/ }
+  @media screen and (max-width: 960px) {
+    header {
+      height: 80px; } }
+  @media screen and (max-width: 560px) {
+    header {
+      height: 60px; } }
+  @media screen and (max-width: 560px) {
+    header a {
+      font-size: 14px; } }
+  header .site-logo {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 100;
+    max-width: 290px;
+    text-align: center;
+    font-size: 18px; }
+    @media screen and (max-width: 960px) {
+      header .site-logo {
+        max-width: 200px; } }
+    @media screen and (max-width: 560px) {
+      header .site-logo {
+        max-width: 150px;
+        top: 5px; } }
+    header .site-logo a {
+      width: 20%; }
+      header .site-logo a img {
+        width: 100%; }
+      @media screen and (max-width: 960px) {
+        header .site-logo a {
+          font-size: 14px; } }
+      @media screen and (max-width: 560px) {
+        header .site-logo a {
+          font-size: 10px;
+          margin-top: 0; } }
+  header .site-info {
+    margin-left: 290px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 30px; }
+    @media screen and (max-width: 960px) {
+      header .site-info {
+        margin-top: 14px; } }
+    @media screen and (max-width: 767px) {
+      header .site-info {
+        margin-top: 24px;
+        margin-left: 210px; } }
+    @media screen and (max-width: 560px) {
+      header .site-info {
+        margin-top: 18px;
+        margin-left: 160px; } }
+    header .site-info section {
+      margin: auto 16px;
+      font-size: 18px; }
+      @media screen and (max-width: 960px) {
+        header .site-info section {
+          font-size: 14px; } }
+      @media screen and (max-width: 560px) {
+        header .site-info section {
+          margin: auto 10px; } }
+      header .site-info section img {
+        height: 32px;
+        margin: -2px auto 0; }
+        @media screen and (max-width: 960px) {
+          header .site-info section img {
+            display: block;
+            margin: auto auto; } }
+        @media screen and (max-width: 560px) {
+          header .site-info section img {
+            height: 24px; } }
+      @media screen and (max-width: 767px) {
+        header .site-info section span {
+          display: none; } }
+
+/*=================================================
+Site Info
+=================================================*/

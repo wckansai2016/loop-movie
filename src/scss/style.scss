@@ -1,0 +1,241 @@
+/*-------------------------------------------------
+Variables
+---------------------------------------------------*/
+//Font
+$font-normal:14px;
+$font-large:24px;
+$font-largest:36px;
+
+//Space
+$space-none : 0px;
+$space-small : 10px;
+$space-middle : 16px;
+$space-large : 33px;
+
+
+//Break point
+$bp-pc: 'screen and (max-width: 960px)';
+$bp-tab: 'screen and (max-width: 767px)';
+$bp-sp: 'screen and (max-width: 560px)';
+
+/*=================================================
+Reset
+=================================================*/
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #FFF;
+	margin: 0;
+	font-family: Helvetica, sans-serif;;
+	overflow: hidden;
+}
+a {
+	color: #000;
+}
+
+/*=================================================
+3D
+=================================================*/
+/*Three.js
+-----------------------------------*/
+
+#stats{
+	position:absolute;
+	z-index: 1000;
+	
+}
+
+/*Element
+-----------------------------------*/
+
+.element{
+	width: 400px;
+	height: 160px;
+	text-align: center;
+	cursor: default;
+	&.year {
+		font-size:36px;
+	}
+	&.wc{
+		img{
+			width: 100px;
+		}
+	}
+	&.wck2016{
+		width: 1000px;
+		text-align: center;
+		.wapuu{
+			position:absolute;
+		}
+		.wapuu_hover{
+			left: 0;
+			margin-top: 30px;
+			width: 200px;
+		}
+		.wapuu_headset{
+			right: 0;
+			width: 180px;
+		}
+		
+		.logo{
+			width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 60px;
+			
+		}
+	}
+}
+
+
+/*Point
+-----------------------------------*/
+.point{
+	background: #000000;
+}
+
+.point-l{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+}
+	
+
+.point-m{
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+}
+
+.point-s{
+	width: 4px;
+	height: 4px;
+	border-radius: 2px;
+}
+
+
+header{
+	height: 90px;
+	background: #FFF;
+	width: 100%;
+	display:block;
+	position: fixed;
+	top:0;
+	left:0;
+	font-size:18px;
+	border-bottom: 1px #999 solid;
+	
+	@media #{$bp-pc}{ 
+		height: 80px;
+	}
+	@media #{$bp-sp}{ 
+		height: 60px;
+	}
+	a{
+		@media #{$bp-sp}{ 
+			font-size:14px;
+		}
+	}
+	
+	/*Logo
+	-----------------------------------------------*/
+	.site-logo{
+		position:fixed;
+		left:10px;
+		top: 10px;
+		z-index: 100;
+		max-width: 290px;
+		text-align: center;
+		font-size: 18px;
+		
+		@media #{$bp-pc}{ 
+			max-width: 200px;
+			
+		}
+		@media #{$bp-sp}{ 
+			max-width: 150px;
+			top: 5px;
+			
+		}
+
+		a{
+			width: 20%;
+			img{
+				width:100%;
+			}
+			@media #{$bp-pc}{ 
+				font-size: 14px;
+			}
+			
+			@media #{$bp-sp}{ 
+				font-size: 10px;
+				margin-top: 0;
+			}
+		}
+	}
+
+	/*Site Info
+	-----------------------------------------------*/
+	.site-info{
+		margin-left: 290px;
+		display:flex; 
+		justify-content: flex-end;
+		margin-top: 30px;
+		@media #{$bp-pc}{ 
+			margin-top: 14px;
+		}
+		@media #{$bp-tab}{ 
+			margin-top: 24px;
+			margin-left: 210px;
+		}
+		
+		
+		@media #{$bp-sp}{ 
+			margin-top: 18px;
+			margin-left: 160px;
+		}
+		
+		section{
+			margin: auto $space-middle;
+			font-size: 18px;
+			@media #{$bp-pc}{ 
+				font-size: 14px;
+			}
+			
+			@media #{$bp-sp}{ 
+				margin: auto $space-small;
+			}
+			img{
+				height: 32px;
+				margin: -2px auto 0;
+				@media #{$bp-pc}{ 
+					display: block;
+					margin: auto auto;
+				}
+				@media #{$bp-sp}{ 
+					height: 24px;
+				}
+			}
+			
+			span{
+				@media #{$bp-tab}{ 
+					display: none;
+				}
+			}
+		}
+		
+		
+			
+
+	
+	}
+
+}
+
+
+
+
+/*=================================================
+Site Info
+=================================================*/
