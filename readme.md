@@ -1,5 +1,4 @@
 # The Loop Movie of WordCamp Kansai 2016
-###July 9/10, 2016
 
 ## Preview
 https://wckansai2016.github.io/loop-movie/
