@@ -5,5 +5,5 @@
 https://wckansai2016.github.io/loop-movie/
 
 ##License
-GNU General Public License v2 or later
+GNU General Public License v2 or later  
 http://www.gnu.org/licenses/gpl-2.0.html
